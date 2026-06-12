@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Rock Paper Scissors</h1>
+    <div class = "choices">
+        <div class="choice">
+           
+            <!-- Image Map Generated -->
+           <img 
+        id="image"
+        src="https://static.vecteezy.com/system/resources/thumbnails/012/616/132/small/rock-paper-scissors-icon-set-on-white-background-vector.jpg"
+        usemap="#image-map"
+        width="500"
+        height:auto;
+    >
+
+    <map name="image-map">
+        <area id="rock" shape="circle" coords="80,150,35">
+    <area id="paper" shape="circle" coords="250,150,35">
+    <area id="scissor" shape="circle" coords="420,150,35">
+    </map>
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="mine">0</p>
+            <p class="me" >YOU</p>
+        </div>
+        <div class="score">
+            <p id="computer">0</p>
+            <p class="comp">COMPUTER</p>
+        </div>
+    </div>
+    <div class = "message-container">
+        <p class="text">PLAY YOUR MOVE</p>
+
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
