@@ -1,0 +1,90 @@
+body{
+    text-align:center;
+    font-family:sans-serif;
+    
+
+}
+
+
+.scoreboard{
+    font-size:32px;
+    font-weight:bold;
+    margin-bottom:15px;
+    background-color: aquamarine;
+    display:inline;
+    
+}
+
+.player1{
+    color:yellow;
+}
+
+.player2{
+    color:red;
+}
+
+#turn{
+    margin-top:2rem;
+    font-size:3rem;
+    margin-bottom:20px;
+   
+    background-color :rgb(159, 145, 172);
+}
+
+#board{
+    margin:30px auto;
+    display:grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(7, 60px);
+    width:max-content;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    background:black;
+    border-radius:50%;
+    justify-self:center;
+    align-self:center;
+}
+
+.h-line{
+    width:100px;
+    height:6px;
+    background:#ddd;
+    cursor:pointer;
+    justify-self:center;
+    align-self:center;
+}
+
+.v-line{
+    width:6px;
+    height:100px;
+    background:#ddd;
+    cursor:pointer;
+    justify-self:center;
+    align-self:center;
+}
+
+/* .box{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+} */
+
+.active1{
+    background:rgb(96, 96, 136);
+}
+
+.active2{
+    background:rgb(136, 52, 52);
+}
+
+.box1{
+    background:rgb(96, 96, 136);
+}
+
+.box2{
+    background:rgb(136, 52, 52);
+}
